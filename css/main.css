@@ -101,7 +101,13 @@ section {
     overflow:hidden;
 }
 
-@media (max-width: 960px) or (max-device-width: 960px) {
+@media handhelp {
+    section {
+	margin:0px;
+    }
+}
+
+@media (max-width: 960px) {
     section {
 	margin:0px;
     }
