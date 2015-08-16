@@ -62,8 +62,8 @@ header {
 
 section {
     display:inline-block;
-    max-width:900px;
-    background:#ffe8d0;
+    width:900px;
+    background:#fff0e0;
     height:100%;
     padding:32px;
     margin:8px;
