@@ -101,11 +101,19 @@ section {
     overflow:hidden;
 }
 
+@media (max-width: 960px) {
+    section {
+	margin:0px;
+    }
+}
+    
 section > img {
     display:block;
     max-width:100%;
     margin-left:auto;
     margin-right:auto;
+    margin-top:16px;
+    margin-bottom:16px;
 }
 
 p {
