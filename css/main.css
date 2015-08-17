@@ -7,6 +7,12 @@ body {
     background-color:black;
 }
 
+@media (min-width: 1920px) {
+    body {
+    background-size:100%;
+    }
+}
+
 h1, h2 {
     display:block;
     font-family:"Maven Pro", sans-serif;
