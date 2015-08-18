@@ -1,13 +1,13 @@
 body {
     background-image:url("../images/leeds-at-night.jpg");
-    background-size:1920px;
+    background-size:1700px;
     background-position:center top;
     background-repeat:no-repeat;
-    text-align:center;
     background-color:black;
+    text-align:center;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1700px) {
     body {
     background-size:100%;
     }
@@ -48,6 +48,8 @@ nav ul {
     display:inline-block;
     list-style-type:none;
     overflow:hidden;
+    margin: 0;
+    padding: 0;
     padding-left:1px;
     padding-top:1px;
 }
@@ -72,6 +74,11 @@ nav a {
 
 nav .selected {
     background-color:#cc8;
+}
+
+ul {
+    padding-left:40px;
+    margin:16px 0;
 }
 
 h3 {
