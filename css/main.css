@@ -22,19 +22,43 @@ h1, h2 {
 
 h1 {
     font-size:54pt;
-    margin:16px;
+    margin:16px 0px;
     text-transform:uppercase;
-}
-
-@media (max-width: 600px) {
-    h1 {
-	font-size:36pt;
-    }
 }
 
 h2 {
     font-size:28pt;
-    margin:16px;
+    margin:16px 0px;
+}
+
+@media (max-width: 910px) {
+    h1 {
+	font-size:42pt;
+    }
+
+    h2 {
+	font-size:26pt;
+    }
+}
+
+@media (max-width: 710px) {
+    h1 {
+	font-size:36pt;
+    }
+
+    h2 {
+	font-size:24pt;
+    }
+}
+
+@media (max-width: 610px) {
+    h1 {
+	font-size:30pt;
+    }
+
+    h2 {
+	font-size:20pt;
+    }
 }
 
 nav {
